@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for HandCap data loading.
+
 from collections.abc import Iterator, Sequence
 import logging
 import multiprocessing

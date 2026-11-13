@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for ForceVT model settings.
+
 import dataclasses
 from typing import TYPE_CHECKING
 

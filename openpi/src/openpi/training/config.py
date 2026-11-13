@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for ForceVT training configuration.
+
 """See _CONFIGS for the list of available configs."""
 
 import abc

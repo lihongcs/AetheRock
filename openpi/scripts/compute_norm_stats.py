@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for ForceVT normalization data.
+
 """Compute normalization statistics for a config.
 
 This script is used to compute the normalization statistics for a given config. It

@@ -1,3 +1,7 @@
+# Portions adapted from the pyopenxr vive_tracker.py example.
+# Copyright 2021 Christopher Bruns. Licensed under Apache-2.0.
+# Modified by the AetheRock project for HandCap tracking.
+
 import os
 import xr
 import time

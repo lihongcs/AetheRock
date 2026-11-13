@@ -14,6 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Modified by the AetheRock project to package the ForceVT dataset loader.
+
+
 """LeRobot components used by the ForceVT HandCap dataset loader."""
 
 from lerobot.__version__ import __version__ as __version__

@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for tactile and force observations.
+
 import abc
 from collections.abc import Sequence
 import dataclasses

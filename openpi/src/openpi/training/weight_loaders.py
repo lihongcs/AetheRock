@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for ForceVT checkpoint initialization.
+
 import dataclasses
 import logging
 import re

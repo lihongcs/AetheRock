@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for HandCap and tactile transforms.
+
 from collections.abc import Callable, Mapping, Sequence
 import dataclasses
 import functools

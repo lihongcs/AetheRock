@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for ForceVT checkpoint loading.
+
 import logging
 import pathlib
 from typing import Any

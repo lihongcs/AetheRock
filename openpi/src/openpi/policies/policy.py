@@ -1,3 +1,5 @@
+# Modified from OpenPI by the AetheRock project for ForceVT policy inputs and outputs.
+
 from collections.abc import Sequence
 import logging
 import pathlib
