@@ -1,0 +1,29 @@
+{
+    "wrist": {
+        "type": "mvs_cam",
+        "serial": "",
+        "exposure": 20000
+    },
+    "realsense": {
+        "type": "realsense",
+        "sn": ""
+    },
+    "left_tactile": {
+        "type": "tactile_opencv",
+        "camera_index": 12,
+        "fps": 20,
+        "resolution": [224, 224],
+        "capture_resolution": [640, 480]
+    },
+    "right_tactile": {
+        "type": "tactile_opencv",
+        "camera_index": 14,
+        "fps": 20,
+        "resolution": [224, 224],
+        "capture_resolution": [640, 480]
+    },
+    "realsense_third": {
+        "type": "realsense",
+        "sn": ""
+    }
+}

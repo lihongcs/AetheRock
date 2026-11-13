@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.ruff_cache/
+
+/openpi/Data/
+/openpi/logs/
+/openpi/checkpoints/
+/openpi/assets/
+/openpi/wandb/
+/handcap/combined_data/
+/handcap/handcap_data/
+/handcap/dataset/

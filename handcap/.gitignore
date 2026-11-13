@@ -1,0 +1,45 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+*.pyc
+*.DS_Store
+*.mp4
+*.wav
+*.png
+*.jpg
+*.tar.gz
+
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+Sensor/output_corners
+
+CollectedData/
+remote_control_logs/
+remote_control_two_trackers_logs/
+
+Publisher/build
+Publisher/install
+Publisher/log
+
+
+Receiver/build
+Receiver/install
+Receiver/log
+
+data/
+data1.0/
+data_1205/
