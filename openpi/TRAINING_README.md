@@ -14,7 +14,7 @@ The launcher computes normalization statistics, trains the JAX π₀.₅ policy 
 
 The four paper task launchers expect a separate LeRobot v3 HandCap dataset for each of the 50, 75 and 100 tactile fidelity groups. Each dataset root must contain `data/`, `meta/` and `videos/`, with synchronized wrist, tactile, force, pose, gripper and instruction fields. Set `HEALTH50_DATA_ROOT`, `HEALTH75_DATA_ROOT` and `HEALTH100_DATA_ROOT` to point to your prepared datasets, or match the directory names in the launcher. The Bread Moving example uses groups 0, 50 and 100.
 
-The [public dataset](https://huggingface.co/datasets/lihong-cs/aetherock) publishes task-level Zarr archives and Parquet previews. The training loader expects the LeRobot layout and explicit fidelity grouping.
+The [data guide](../data/README.md) links the Hugging Face archives to the paper tasks and explains what is needed to convert the recordings to the LeRobot layout.
 
 ## Launchers
 

@@ -6,6 +6,7 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
+/data/raw/
 /openpi/Data/
 /openpi/logs/
 /openpi/checkpoints/

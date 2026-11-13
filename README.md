@@ -8,6 +8,10 @@
 
 AetheRock records synchronized wrist vision, tactile observations, gripper force, and motion from human demonstrations. ForceVT uses vision and force during training to guide tactile representation learning across sensors with different tactile fidelities.
 
+## Dataset
+
+The [AetheRock dataset](https://huggingface.co/datasets/lihong-cs/aetherock) contains 3,760 demonstrations across 11 task archives. Browse [sampled frames](https://huggingface.co/datasets/lihong-cs/aetherock/viewer/frame_preview/preview) or follow the [data guide](data/README.md) to preview recordings, download individual tasks, and check the training data requirements.
+
 ## Collect demonstrations
 
 The [HandCap guide](handcap/README.md) covers collector setup, device configuration, and optional HTC tracking. After configuring the sensors on the Linux collector, start a recording session from the repository root:
@@ -25,7 +29,7 @@ Recordings are written to `handcap/data/handcap_100001/episode_*`. The [HandCap-
 
 The [ForceVT training guide](openpi/TRAINING_README.md) describes the Linux/CUDA environment and task launchers for board erasing, screwdriving, bottle closing, and stowing. ForceVT post-trains a π₀.₅ policy using fused vision–force features to guide tactile learning and align representations across modalities. This repository is based on the June 2026 implementation. Its relational distillation loss uses KL divergence, and the launchers expose tactile masking as an option.
 
-The launchers expect local LeRobot datasets grouped by tactile fidelity. For the bottle-closing task, each of `health50/`, `health75/`, and `health100/` must contain `data/`, `meta/`, and `videos/`. The [public dataset card](https://huggingface.co/datasets/lihong-cs/aetherock) documents task-level Zarr archives and preview tables. Before using those archives for training, convert them to LeRobot and assign episodes to fidelity groups using verified labels.
+The launchers expect local LeRobot datasets grouped by tactile fidelity. The [data guide](data/README.md#prepare-data-for-forcevt) explains the format and labels required to use the Hugging Face archives for training.
 
 Once the bottle-closing data is ready, run this from the repository root on a Linux machine with CUDA:
 
