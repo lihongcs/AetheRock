@@ -161,12 +161,9 @@ cleanup_recording() {
   case "$keep_data" in
     y|Y|yes|Yes )
       echo "✅ 已保留外置录像。"
-      SPEEDUP_SCRIPT="${SCRIPT_DIR}/../speedup_video.py"
-      if [[ -f "$SPEEDUP_SCRIPT" ]]; then
+      if [[ -n "${SPEEDUP_SCRIPT:-}" && -f "$SPEEDUP_SCRIPT" ]]; then
         echo "Applying 3x speedup to $RECORD_FILE..."
         python "$SPEEDUP_SCRIPT" "$RECORD_FILE" --speed 3
-      else
-        echo "Skipping 3x speedup because $SPEEDUP_SCRIPT was not found."
       fi
       ;;
     * )

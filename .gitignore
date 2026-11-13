@@ -11,6 +11,8 @@ __pycache__/
 /openpi/checkpoints/
 /openpi/assets/
 /openpi/wandb/
+/openpi/recordings/
+/openpi/real_robot_inference_recording/
 /handcap/combined_data/
 /handcap/handcap_data/
 /handcap/dataset/

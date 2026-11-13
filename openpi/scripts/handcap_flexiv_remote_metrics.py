@@ -85,7 +85,7 @@ def _required_env_float(name: str) -> float:
     try:
         return float(value)
     except ValueError as exc:
-        raise RuntimeError(f"{name} must be a float, got {value!r}. Set it in run_inference_pi05.sh.") from exc
+        raise RuntimeError(f"{name} must be a float, got {value!r}. Set it before running the ForceVT launcher.") from exc
 
 
 def _required_env_bool(name: str) -> bool:
