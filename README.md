@@ -56,4 +56,4 @@ DATA_ROOT_BASE=/path/to/bottle-closing-data \
 
 AetheRock's original code is available under the [Apache License, Version 2.0](LICENSE). See the [third-party notices](THIRD_PARTY_NOTICES.md) for the licenses and sources of bundled components.
 
-Figures 1 and 4 are from [Li et al., AetheRock](https://arxiv.org/html/2606.09777v3) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See the [dataset guide](data/README.md) for data attribution.
+See the [dataset guide](data/README.md) for data attribution.

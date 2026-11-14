@@ -9,4 +9,4 @@ AetheRock's original software contributions, including the HandCap collector and
 - **pyopenxr examples** by Christopher Bruns supplies Vive Tracker example code adapted by the HandCap tracker and visualization scripts. [pyopenxr examples source](https://github.com/cmbruns/pyopenxr_examples) · [Apache 2.0 license](licenses/pyopenxr-examples.txt)
 - **imagecodecs** by Christoph Gohlke supplies Numcodecs adapters. The original BSD 3-Clause notice appears in the vendored file. [imagecodecs source](https://github.com/cgohlke/imagecodecs) · [Vendored adapter and license](handcap/Postprocess/dp_utils/imagecodecs_numcodecs.py)
 
-The paper figures and dataset preview use CC BY 4.0. See the attribution in the [README](README.md) and the [dataset guide](data/README.md).
+See the [dataset guide](data/README.md) for the dataset preview attribution.
